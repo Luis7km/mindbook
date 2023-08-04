@@ -2,20 +2,19 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
     height: 100%;
-    width: 15%;
+    width: 20%;
+    background-color: #22162A;
 }
 
 .button {
-    color: whitesmoke;
-    border-width: 1px 0 1px 0;
-    background-color: transparent;
+    color: #B9B5BB;
     width: 100%;
-    padding: 10px 20px 10px 20px;
+    border-style: none;
+    background-color: transparent;
+    padding: 20px 30px 20px 30px;
 }
 
 .button:hover {
-    opacity: 0.5;
+    color: #FBFCF6;
 }

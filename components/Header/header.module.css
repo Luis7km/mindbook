@@ -1,8 +1,9 @@
 .header {
     border-style: solid;
     border-width: 1px;
+    border-color: black;
     box-sizing: border-box;
     padding: 10px;
-    color: whitesmoke;
-    background: #262828;
+    color: #F1ECE7;
+    background: black;
 }
