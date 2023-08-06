@@ -8,13 +8,21 @@ import RightBar from '../RightBar/rightBar';
 export default function Layout({children}) {
     return (
         <div className={styles.container}>
-            <Header/>
-            <div className={styles.content}>
+            <div className={styles.header}>
+                <Header/>
+            </div>
+            <div className={styles.leftBar}>
                 <LeftBar/>
-                <main>{children}</main>
+            </div>
+            <div className={styles.main}>
+                {children}
+            </div>
+            <div className={styles.rightBar}>
                 <RightBar/>
             </div>
-            <Footer/>
+            <div className={styles.footer}>
+                <Footer/>
+            </div>
         </div>
     )
 }

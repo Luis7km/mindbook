@@ -4,9 +4,15 @@ h1 {
     font-size: 30pt;
     font-weight: 900;
 }
-h2,h3,h4,h5,h6,p,span,a,button,input {
+h2, h3, h4, h5, h6, p, span, a, button, input {
     font-family: 'Montserrat', sans-serif;
 }
-* {
-    box-sizing: border-box;
+
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    max-height: 100vh;
 }

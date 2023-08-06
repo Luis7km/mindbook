@@ -9,7 +9,6 @@ export default function LeftBar() {
 
     return (
         <div className={styles.options}>
-            {/* Aplica estilos condicionales al enlace dependiendo de la ruta actual */}
             <Link href='/' className={router.pathname === '/' ? styles.buttonSelected : styles.button}>
                 <Image
                     priority
