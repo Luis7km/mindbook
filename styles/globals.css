@@ -8,6 +8,9 @@ h2, h3, h4, h5, h6, p, span, a, button, input {
     font-family: 'Montserrat', sans-serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 body, html {
     padding: 0;
