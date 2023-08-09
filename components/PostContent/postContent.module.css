@@ -1,0 +1,9 @@
+.imageContainer {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.postedImage {
+    width: 200px;
+}
