@@ -7,8 +7,9 @@ import Link from "next/link";
 const Post = () => {
     const posts = Array.from({ length: 3 }).map((_, index) => (
         <div key={index} className={styles.post}>
-          <div>
-            <Link href="/">The publisher</Link>
+          <div style={{minWidth: "100%", minHeight: "auto"}}>
+            <Link href="/" style={{textDecoration: "none", 
+            color: "#22162A", fontWeight: "600" ,fontSize: "14pt"}}>The publisher</Link>
             <PostContent />
             <PostComent />
           </div>

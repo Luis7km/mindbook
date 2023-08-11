@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formInput {
+    padding: 5px 10px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.formSubmit {
+    width: 20%;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 12pt;
+    border-radius: 15px;
+    border-width: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #22162A;
+    color: orange;
+    transition: filter 0.5s ease;
+}
+
+.formSubmit:hover {
+    filter: saturate(500%);
+}
+
+.formSubmit:active {
+    filter: saturate(800%);
+}

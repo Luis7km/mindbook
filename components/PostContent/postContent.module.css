@@ -1,9 +1,14 @@
 .imageContainer {
-    width: 100%;
-    height: 300px;
+    min-width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
-.postedImage {
-    width: 200px;
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.postBody {
+    margin: 0.5rem 0;
 }

@@ -7,3 +7,10 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
+.test {
+    text-decoration: none;
+    color: "#22162A";
+    font-weight: "600";
+    font-size: "14pt"
+}
