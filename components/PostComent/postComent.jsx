@@ -9,6 +9,7 @@ export default function PostComent() {
             <Coment/>
             <Coment/>
             <Coment/>
+            <hr/>
             <ComentForm/>
         </div>
     )
