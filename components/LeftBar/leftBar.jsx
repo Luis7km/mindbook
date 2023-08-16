@@ -9,10 +9,10 @@ export default function LeftBar() {
 
     return (
         <div className={styles.options}>
-            <Link href='/' className={router.pathname === '/' ? styles.buttonSelected : styles.button}>
+            <Link href='/hub' className={router.pathname === '/hub' ? styles.buttonSelected : styles.button}>
                 <Image
                     priority
-                    src={router.pathname === '/' ? "/images/UISvg/homeSelected.svg" : "/images/UISvg/home.svg"}
+                    src={router.pathname === '/hub' ? "/images/UISvg/homeSelected.svg" : "/images/UISvg/home.svg"}
                     className={styles.image}
                     width={30}
                     height={30}

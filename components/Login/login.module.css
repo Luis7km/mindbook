@@ -1,0 +1,66 @@
+.container {
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #FBFCF6;
+    box-shadow: 1px 1px 5px 1px;
+    width: 80%;
+}
+
+.input {
+    font-size: 18pt;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 100%;
+}
+
+.input:focus {
+    border: solid 2px #B24C41;
+    outline: none;
+}
+
+.loginButton {
+    width: 50%;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16pt;
+    border-radius: 25px;
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #22162A;
+    color: orange;
+    transition: filter 0.5s ease;
+}
+
+.loginButton:hover {
+    filter: saturate(500%);
+}
+
+.loginButton:active {
+    filter: saturate(800%);
+}
+
+.registerButton {
+    width: 50%;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16pt;
+    border-radius: 25px;
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #22162A;
+    color: orange;
+    transition: filter 0.5s ease;
+}
+
+.registerButton:hover {
+    filter: saturate(500%);
+}
+
+.registerButton:active {
+    filter: saturate(800%);
+}
